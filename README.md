@@ -75,7 +75,7 @@ docker run -p 8501:8501 --env-file .env voxreminder-ai
 ## 🔗 Live Demo
 Experience the globally available web application here: 
 
-[**VoxReminder AI Live App**](https://vox-reminder-ai.streamlit.app) 
+[**VoxReminder AI**](https://vox-reminder-ai.streamlit.app) 
 
 ---
 
