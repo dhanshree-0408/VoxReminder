@@ -1,0 +1,7 @@
+streamlit
+streamlit-mic-recorder
+openai-whisper
+python-dotenv
+dateparser
+apscheduler
+watchdog
