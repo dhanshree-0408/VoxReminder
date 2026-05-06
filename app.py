@@ -49,8 +49,8 @@ if audio:
 
         # 3. Validation & Scheduling
         if alert_dt and alert_dt > datetime.now():
-            st.success(f"✅ **Scheduled:** {task}")
-            st.write(f"⏰ **Alert set for:** {alert_dt.strftime('%I:%M:%S %p')}")
+            st.success(f" **Scheduled:** {task}")
+            st.write(f" **Alert set for:** {alert_dt.strftime('%I:%M:%S %p')}")
             
             # Schedule the background notification and email
             st.session_state.scheduler.add_job(
